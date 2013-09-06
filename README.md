@@ -1,4 +1,3 @@
-android-samples
+Android Samples
 ===============
 
-Android Samples
