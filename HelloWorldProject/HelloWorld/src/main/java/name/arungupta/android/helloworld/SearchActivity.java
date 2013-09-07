@@ -1,6 +1,5 @@
 package name.arungupta.android.helloworld;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -10,17 +9,16 @@ import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 import android.widget.TextView;
 
-public class DisplayMessageActivity extends Activity {
+public class SearchActivity extends Activity {
 
-    @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_display_message);
+//        setContentView(R.layout.activity_search);
 
         // Get the message from the intent
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.DISPLAY_MESSAGE);
+        String message = intent.getStringExtra(MainActivity.SEARCH_MESSAGE);
 
         // Create the text view
         TextView textView = new TextView(this);
@@ -29,6 +27,9 @@ public class DisplayMessageActivity extends Activity {
 
         // Set the text view as the activity layout
         setContentView(textView);
+
+        // Show the Up button in the action bar.
+        setupActionBar();
 
         // Make sure we're running on Honeycomb or higher to use ActionBar APIs
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
@@ -51,7 +52,7 @@ public class DisplayMessageActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.display_message, menu);
+        getMenuInflater().inflate(R.menu.search, menu);
         return true;
     }
     

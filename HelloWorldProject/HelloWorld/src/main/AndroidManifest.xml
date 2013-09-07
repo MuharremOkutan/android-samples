@@ -30,6 +30,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="name.arungupta.android.helloworld.MainActivity" />
         </activity>
+        <activity
+            android:name="name.arungupta.android.helloworld.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName="name.arungupta.android.helloworld.DisplayMessageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="name.arungupta.android.helloworld.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name="name.arungupta.android.helloworld.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="name.arungupta.android.helloworld.DisplayMessageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="name.arungupta.android.helloworld.DisplayMessageActivity" />
+        </activity>
     </application>
 
 </manifest>
