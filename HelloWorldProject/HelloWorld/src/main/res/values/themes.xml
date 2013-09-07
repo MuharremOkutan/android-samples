@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+           parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <!--<bitmap xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--android:src="@drawable/ab_texture_tile_example"-->
+                <!--android:tileMode="repeat" />-->
+        <item name="android:background">@drawable/ab_texture_tile_example</item>
+    </style>
+</resources>
