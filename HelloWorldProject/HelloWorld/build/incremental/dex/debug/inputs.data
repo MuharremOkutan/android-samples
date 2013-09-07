@@ -1,0 +1,15 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1378514346000 474 60ffdb2d9c7f741d8f18060fa1e7a9fd09a02fe9 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R$id.class
+1378514346000 448 ad1cf0f807218242448eb86883d2e087b2a30924 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R$layout.class
+1378508403000 847 26f0d5db16c21831f7783cfb9bc2d3ecfce17784 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/MainActivity.class
+1378508403000 506 5ff355f54e6bd78299d9fd4d0f1c48d41e813999 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R$dimen.class
+1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1378514346000 433 a031e7fd17647d726c065ed71671f946c24289b1 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R$menu.class
+1378508403000 375 ef8090375eefb67c1f639dba1a548a54468b4a05 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/BuildConfig.class
+1378514346000 827 8b35a15c391f9074fde3c646155858b49b88887f /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R.class
+1378514346000 588 1cc30489f680bfb51d5f9975f089f4b5b43203d0 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R$string.class
+1378508403000 452 bfd6dad6e501339e846e0e82901cba810b6b2e25 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R$drawable.class
+1378514346000 476 3054a2c51bb9ab39c70af3abede8b117a39edf96 /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R$style.class
+1378508403000 385 91b700563a710910b70ffa7fe00e77782b5dc7bf /Users/arungup/code/workspaces/android-samples/HelloWorldProject/HelloWorld/build/classes/debug/name/arungupta/android/helloworld/R$attr.class
